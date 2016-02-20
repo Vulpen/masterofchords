@@ -31,7 +31,7 @@
             </div>
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
-                    <img class="img-responsive" src="Caleb.jpg" alt="">
+                    <img class="img-responsive" src="img/Caleb.jpg" alt="">
                     <div class="caption">
                         <h3>Caleb Shotts<br>
                             <small>Backend Programmer</small>
@@ -43,7 +43,7 @@
             </div>
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
-                    <img class="img-responsive" src="Alex.jpg" alt="">
+                    <img class="img-responsive" src="img/Alex.jpg" alt="">
                     <div class="caption">
                         <h3>Alex Johnson<br>
                             <small>Backend Programmer</small>
@@ -55,7 +55,7 @@
             </div>
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
-                    <img class="img-responsive" src="Thomas.jpg" alt="">
+                    <img class="img-responsive" src="img/Thomas.jpg" alt="">
                     <div class="caption">
                         <h3>Thomas Lowe<br>
                             <small>Front end Programmer</small>
@@ -74,7 +74,7 @@
             </div>
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
-                    <img class="img-responsive" src="Hank.jpg" alt="">
+                    <img class="img-responsive" src="img/Hank.jpg" alt="">
                     <div class="caption">
                         <h3>Hank Grogan<br>
                             <small>Front end Programmer</small>
