@@ -53,6 +53,8 @@
                         </div>
                         <button type="submit" class="btn btn-default">Submit</button>
                     </form>
+                    <a href="/home">Profile</a>
+
                 </li>
             </ul>
         </div>
