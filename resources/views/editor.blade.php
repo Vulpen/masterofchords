@@ -9,7 +9,7 @@
             overflow: auto;
             font-family: inherit;
             font-size: 100%;
-            margin:20px 0;
+
         }
     </style>
 
@@ -25,15 +25,22 @@
 <div ng-app="textAngularTest" ng-controller="wysiwygeditor" class="container app">
     <h1>Music Editor</h1>
     <div>
-        Artist: <input type="text" name="artist"><br>
-        Song: <input type="text" name="songName"><br><br><br>
-        <button type="button">Submit Song</button>
+        <tr>
+            <td>Artist: </td><td><input type="text" name="artist"></td>
+            <br>
+        </tr>
+        <tr>
+            <td>Song: </td><td><input type="text" name="songName"></td>
+            <br>
+        </tr>
+        <br><br>
+	    <a href="#" class="btn btn-default">Submit Song</a>
         <br><br><br>
     </div>
 
     <div text-angular="text-angular" name="htmlcontent" ng-model="htmlcontent"></div>
 
-    <button type="button">Submit Song</button>
+    <<a href="#" class="btn btn-default">Submit Song</a>
 </div>
 <script>
     angular.module("textAngularTest", ['textAngular']).controller('wysiwygeditor', function wysiwygeditor($scope) {
@@ -42,4 +49,6 @@
     });
 </script>
 <br>
+
+
 @endsection
