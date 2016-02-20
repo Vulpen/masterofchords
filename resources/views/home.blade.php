@@ -17,7 +17,7 @@
 								<div class="col-lg-12">
 									<div class="col-xs-12 col-sm-4">
 										<figure>
-											<img class="img-circle img-responsive" alt="" src="img/happy.jpg">
+											<img class="img-circle img-responsive" alt="" src="{{ asset('img/happy.jpg') }}">
 										</figure>
 
 										<div class="row">

@@ -5,9 +5,7 @@
 <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
 
 		<script>
-
 			var ref = new Firebase("https://master-of-the-chords.firebaseio.com");
-
 			function signin() {
 				// prefer pop-ups, so we don't navigate away from the page
 				ref.authWithOAuthPopup("facebook", function(error, authData) {
@@ -19,12 +17,11 @@
 						}
 					} else if (authData) {
 						// user authenticated with Firebase
+						$.post("/home", function(authData, status) {
+							document.write(status);
+						});
 					}
 				});
-			}
-
-			function createAccount() {
-
 			}
 		</script>
 <!-- Header Carousel -->
@@ -45,7 +42,7 @@
 			</div>
 		</div>
 		<div class="item">
-			<div class="fill" style="background-image:url('{{ asset('img/Guitar.jpg') }}');"></div>
+			<div class="fill" style="background-image:url('{{ asset('img/guitar.jpg') }}');"></div>
 			<div class="carousel-caption">
 				<h1>Inspire</h1>
 			</div>
@@ -77,7 +74,7 @@
 				Master of the Chords
 			</h1>
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-6">
 			<div class="panel panel-default">
 				<div class="panel-heading">
 					<h4><i class="fa fa-fw fa-check-circle"></i> New Song</h4>
@@ -88,7 +85,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-6">
 			<div class="panel panel-default">
 				<div class="panel-heading">
 					<h4><i class="fa fa-fw fa-home"></i> Sign in</h4>
@@ -96,17 +93,6 @@
 				<div class="panel-body">
 					<p>Already a master of the chords? Sign in now to keep building your legacy!</p>
 					<button onclick="signin()" class="btn btn-default">Sign in</button>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h4><i class="fa fa-fw fa-thumbs-up"></i> New User?</h4>
-				</div>
-				<div class="panel-body">
-					<p>Create an account to save your creations!</p>
-					<button onclick="createAccount()" class="btn btn-default">Sign Up</button>
 				</div>
 			</div>
 		</div>
