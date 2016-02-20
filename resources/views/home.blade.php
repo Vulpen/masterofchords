@@ -51,14 +51,9 @@
 							</p>
 						</div>
 						<div class="bs-callout bs-callout-danger">
-							<h4>Key Expertise</h4>
+							<h4>Songs created</h4>
 							<ul class="list-group">
 								<li class="list-group-item"> Add Links for each completed song. </li>
-								<li class="list-group-item"> Lorem ipsum dolor sit amet, ea vel prima adhuc</li>
-								<li class="list-group-item"> Lorem ipsum dolor sit amet, ea vel prima adhuc</li>
-								<li class="list-group-item"> Lorem ipsum dolor sit amet, ea vel prima adhuc</li>
-								<li class="list-group-item">Lorem ipsum dolor sit amet, ea vel prima adhuc</li>
-								<li class="list-group-item"> Lorem ipsum dolor sit amet, ea vel prima adhuc</li>
 							</ul>
 						</div>
 						<div class="bs-callout bs-callout-danger">
