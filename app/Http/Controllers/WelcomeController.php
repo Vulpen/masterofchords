@@ -37,8 +37,10 @@ class WelcomeController extends Controller {
 		return view('about');
 	}
 
+	public function about() {
+		return view('contact');
+	}
 	public function editor() {
-		$blah = [];
-		return view('editor', compact('blah'));
+		return view('editor');
 	}
 }
