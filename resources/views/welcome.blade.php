@@ -69,7 +69,7 @@
 				</div>
 				<div class="panel-body">
 					<p>Already a master of the chords? Sign in now to keep building your legacy!</p>
-					<a href="#" class="btn btn-default">Learn More</a>
+					<a href="#" class="btn btn-default">Sign in</a>
 				</div>
 			</div>
 		</div>
@@ -80,7 +80,7 @@
 				</div>
 				<div class="panel-body">
 					<p>Create an account to save your creations!</p>
-					<a href="#" class="btn btn-default">Learn More</a>
+					<a href="#" class="btn btn-default">Sign up</a>
 				</div>
 			</div>
 		</div>
