@@ -12,22 +12,13 @@
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner">
 		<div class="item active">
-			<div class="fill" style="background-image:url('Guitar%201.jpg');"></div>
-			<div class="carousel-caption">
-				<h1>Create</h1>
-			</div>
+			<div class="fill" style="background-image:url('https://pixabay.com/get/ec3db70e2ef51c3e955b4203ef4e4596fe76e6d01cb817429cf0c0/guitar-586161.jpg');"></div>
 		</div>
 		<div class="item">
-			<div class="fill" style="background-image:url('Guitar2.jpg');"></div>
-			<div class="carousel-caption">
-				<h1>Inspire</h1>
-			</div>
+			<div class="fill" style="background-image:url('https://pixabay.com/get/e034b20f21f61c3e955b4203ef4e4596fe76e6d01cb817429cf5c5/bass-guitar-913092.jpg');"></div>
 		</div>
 		<div class="item">
-			<div class="fill" style="background-image:url('electric-guitar.jpg');"></div>
-			<div class="carousel-caption">
-				<h1>Electrify</h1>
-			</div>
+			<div class="fill" style="background-image:url('https://pixabay.com/get/e834b10d2df5073ecd1f4402e0454495e36ae3d11cb4184791f0c17c/guitar-1102516.jpg');"></div>
 		</div>
 	</div>
 
