@@ -19,6 +19,8 @@ Route::get('editor', 'WelcomeController@editor');
 
 Route::get('contact', 'WelcomeController@contact');
 
+Route::get('home', 'WelcomeController@home');
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',

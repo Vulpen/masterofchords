@@ -46,6 +46,9 @@
                 <li>
                     <a href="/contact">Contact</a>
                 </li>
+                <li>
+                    <a href="/home">Profile</a>
+                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
