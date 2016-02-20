@@ -12,13 +12,13 @@
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner">
 		<div class="item active">
-			<div class="fill" style="background-image:url('{{ asset('img/guitar.jpg') }}');"></div>
+			<div class="fill" style="background-image:url('{{ asset('img/prs.jpg') }}');"></div>
 		</div>
 		<div class="item">
-			<div class="fill" style="background-image:url('{{ asset('img/') }}');"></div>
+			<div class="fill" style="background-image:url('{{ asset('img/bass.jpg') }}');"></div>
 		</div>
 		<div class="item">
-			<div class="fill" style="background-image:url('https://pixabay.com/get/e834b10d2df5073ecd1f4402e0454495e36ae3d11cb4184791f0c17c/guitar-1102516.jpg');"></div>
+			<div class="fill" style="background-image:url('{{ asset('img/acoustic.jpg') }}');"></div>
 		</div>
 	</div>
 
