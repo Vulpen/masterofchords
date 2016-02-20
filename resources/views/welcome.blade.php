@@ -1,5 +1,6 @@
 @extends("app")
 @section("content")
+
 <!-- Header Carousel -->
 <header id="myCarousel" class="carousel slide">
 	<!-- Indicators -->
@@ -13,12 +14,21 @@
 	<div class="carousel-inner">
 		<div class="item active">
 			<div class="fill" style="background-image:url('{{ asset('img/prs.jpg') }}');"></div>
+			<div class="carousel-caption">
+				<h1>Create</h1>
+			</div>
+		</div>
+		<div class="item">
+			<div class="fill" style="background-image:url('{{ asset('img/Guitar.jpg') }}');"></div>
+			<div class="carousel-caption">
+				<h1>Inspire</h1>
+			</div>
 		</div>
 		<div class="item">
 			<div class="fill" style="background-image:url('{{ asset('img/bass.jpg') }}');"></div>
-		</div>
-		<div class="item">
-			<div class="fill" style="background-image:url('{{ asset('img/acoustic.jpg') }}');"></div>
+			<div class="carousel-caption">
+				<h1>Electrify</h1>
+			</div>
 		</div>
 	</div>
 
@@ -48,7 +58,7 @@
 				</div>
 				<div class="panel-body">
 					<p>Create a song of your own! Put in a few notes and begin your Masterpiece!</p>
-					<a href="#" class="btn btn-default">Learn More</a>
+					<a href="editor" class="btn btn-default">Get Going!</a>
 				</div>
 			</div>
 		</div>
