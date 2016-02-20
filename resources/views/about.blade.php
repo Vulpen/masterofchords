@@ -27,7 +27,7 @@
         <!-- Team Members -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">Our Team</h2>
+                <h2 class="page-header text-center" style="color:grey;">Our Team</h2>
             </div>
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
@@ -36,7 +36,10 @@
                         <h3>Caleb Shotts<br>
                             <small>Backend Programmer</small>
                         </h3>
-                        <p>Pull game = strong</p>
+                        <p style="color:silver;">Pull game = strong</p>
+                        <p>
+                            <a href="mailto:shotts.caleb@gmail.com?Subject=Hello%20again" target="_top">shotts.caleb@gmail.com</a>
+                        </p>
 
                     </div>
                 </div>
@@ -48,7 +51,10 @@
                         <h3>Alex Johnson<br>
                             <small>Backend Programmer</small>
                         </h3>
-                        <p>Specializes in all of it</p>
+                        <p style="color:silver;">Specializes in all of it</p>
+                        <p>
+                            <a href="mailto:mrjohnsonalex@gmail.com?Subject=Hello%20again" target="_top">mrjohnsonalex@gmail.com</a>
+                        </p>
 
                     </div>
                 </div>
@@ -60,7 +66,10 @@
                         <h3>Thomas Lowe<br>
                             <small>Front end Programmer</small>
                         </h3>
-                        <p>He knows man. He knows.</p>
+                        <p style="color:silver;">He knows man. He knows.</p>
+                        <p>
+                            <a href="mailto:musicaltommy@gmail.com?Subject=Hello%20again" target="_top">musicaltommy@gmail.com</a>
+                        </p>
                         <!--<ul class="list-inline">
                             <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
                             </li>
@@ -79,7 +88,10 @@
                         <h3>Hank Grogan<br>
                             <small>Front end Programmer</small>
                         </h3>
-                        <p>Frat Star.</p>
+                        <p style="color:silver;">Frat Star.</p>
+                        <p>
+                            <a href="mailto:hankgrogan@gmail.com?Subject=Hello%20again" target="_top">hankgrogan@gmail.com</a>
+                        </p>
 
 
 @endsection
