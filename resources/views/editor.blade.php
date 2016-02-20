@@ -53,7 +53,7 @@
 
 
 
-              <a href="#" class="btn btn-default">Submit Song</a>
+            <a href="#" class="btn btn-default">Submit Song</a>
             <footer class="row">
                 <div class="col-sm-12 text-center">
                     <p>Created by <a href="https://www.linkedin.com/in/austinanderson1" target="_blank">fraywing</a></p>
@@ -72,4 +72,4 @@
     </div><input id="textAngular-editableFix-010203040506070809" class="ta-hidden-input" aria-hidden="true" unselectable="on" tabindex="-1"></body>
     <br>
 
-    @endsection
+@endsection

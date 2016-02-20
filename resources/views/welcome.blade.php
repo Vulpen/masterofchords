@@ -38,19 +38,27 @@
 		<div class="item active">
 			<div class="fill" style="background-image:url('{{ asset('img/prs.jpg') }}');"></div>
 			<div class="carousel-caption">
-				<h1>Create</h1>
+				<h1>Create a new song <br>
+					that will bring joy to all ears<br>
+					including your own
+				</h1>
 			</div>
 		</div>
 		<div class="item">
 			<div class="fill" style="background-image:url('{{ asset('img/guitar.jpg') }}');"></div>
 			<div class="carousel-caption">
-				<h1>Inspire</h1>
+				<h1>Inspire people<br>
+					to chase after all their dreams <br>
+					and live, laugh, and love.</h1>
 			</div>
 		</div>
 		<div class="item">
 			<div class="fill" style="background-image:url('{{ asset('img/bass.jpg') }}');"></div>
 			<div class="carousel-caption">
-				<h1>Electrify</h1>
+				<h1>Electrify all, <br>
+					enlighten ferociously,<br>
+					to never give up.
+				</h1>
 			</div>
 		</div>
 	</div>
