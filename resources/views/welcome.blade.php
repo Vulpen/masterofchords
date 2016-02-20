@@ -1,5 +1,32 @@
 @extends("app")
 @section("content")
+
+<!-- Firebase -->
+<script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+
+		<script>
+
+			var ref = new Firebase("https://master-of-the-chords.firebaseio.com");
+
+			function signin() {
+				// prefer pop-ups, so we don't navigate away from the page
+				ref.authWithOAuthPopup("facebook", function(error, authData) {
+					if (error) {
+						if (error.code === "TRANSPORT_UNAVAILABLE") {
+							// fall-back to browser redirects, and pick up the session
+							// automatically when we come back to the origin page
+							ref.authWithOAuthRedirect("facebook", function(error) { /* ... */ });
+						}
+					} else if (authData) {
+						// user authenticated with Firebase
+					}
+				});
+			}
+
+			function createAccount() {
+
+			}
+		</script>
 <!-- Header Carousel -->
 <header id="myCarousel" class="carousel slide">
 	<!-- Indicators -->
@@ -59,7 +86,7 @@
 				</div>
 				<div class="panel-body">
 					<p>Already a master of the chords? Sign in now to keep building your legacy!</p>
-					<a href="#" class="btn btn-default">Learn More</a>
+					<button onclick="signin()" class="btn btn-default">Learn More</button>
 				</div>
 			</div>
 		</div>
@@ -70,7 +97,7 @@
 				</div>
 				<div class="panel-body">
 					<p>Create an account to save your creations!</p>
-					<a href="#" class="btn btn-default">Learn More</a>
+					<button onclick="createAccount()" class="btn btn-default">Learn More</button>
 				</div>
 			</div>
 		</div>
