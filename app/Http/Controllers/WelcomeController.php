@@ -43,4 +43,7 @@ class WelcomeController extends Controller {
 	public function editor() {
 		return view('editor');
 	}
+	public function home() {
+		return view('home');
+	}
 }
