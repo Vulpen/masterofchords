@@ -18,8 +18,8 @@
             <div class="col-md-6">
                 <h2>About Master of the Chords</h2>
                 <p>Master of the Chords is a webapp designed to allow musicians to utilize their creativity in the creation of a song through our easy to use online tools.</p>
-                <p>The user can then upload his/her song so that others can see it, or browse through the songs others have created for ideas!</p>
-                <p></p>
+                <p>The user can then upload his/her song so that others can see it, or browse through the songs others have created for ideas! This web application can also be used to upload chords and lyrics of your favorite cover songs!</p>
+                <p>This is a project done by four attendees at University of Michigan's MHacks 7.</p>
             </div>
         </div>
         <!-- /.row -->
